@@ -24,4 +24,4 @@ i = 1
 while i <= 100:
     pyautogui.typewrite(random_string_length(1, 20))
     pyautogui.hotkey('alt', 'f4')
-    i += 1gi
+    i += 1
