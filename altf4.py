@@ -1,7 +1,10 @@
 import pyautogui
 from time import sleep
 
-sleep(2)
-pyautogui.hotkey('win', 'e')
-sleep(1)
-pyautogui.hotkey('alt', 'f4')
+i = 10
+sleep(3)
+while i != 0:
+    pyautogui.typewrite(str(i))
+    pyautogui.press('enter')
+    i = i - 1
+pyautogui.press('backspace')

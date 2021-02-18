@@ -21,7 +21,7 @@ pyautogui.alert(text='Start the Spammer using the "OK" button', title='Spammer')
 print("starting")
 sleep(5)
 i = 1
-while i <= 100:
+while i <= 3000:
     pyautogui.typewrite(random_string_length(1, 20))
-    pyautogui.hotkey('alt', 'f4')
+    pyautogui.hotkey('enter')
     i += 1
